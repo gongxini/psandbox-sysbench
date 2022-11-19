@@ -89,3 +89,4 @@ stage
 
 !third_party/luajit/luajit/Makefile
 !third_party/luajit/luajit/src/Makefile
+!third_party/concurrency_kit/ck/Makefile.in
