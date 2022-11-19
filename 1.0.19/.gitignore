@@ -88,3 +88,4 @@ stage
 /snap/snapcraft.yaml
 
 !third_party/luajit/luajit/Makefile
+!third_party/luajit/luajit/src/Makefile
