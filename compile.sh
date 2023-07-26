@@ -7,3 +7,7 @@ cd 1.0.19
 
 make -j4
 make install
+cd ..
+echo "export SYSBEN_DIR=`pwd`/dist/share/sysbench" >> $HOME/.bashrc
+echo "export PATH=`pwd`/dist/bin:$PATH" >> $HOME/.bashrc
+

@@ -7,3 +7,6 @@ cd 1.0.19
 
 make -j4
 make install
+cd ..
+echo "export POSTGRES_SYSBENCH_DIR=`pwd`/dist/share/sysbench" >> $HOME/.bashrc
+
